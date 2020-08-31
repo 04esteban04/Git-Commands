@@ -2,10 +2,10 @@ Comandos Git
 ============
 
 ## Versiones Traducidas
-- [English Version](README.md)
+- [Versión en Inglés](README.md)
 <br>
 
-## Resumen De Comandos Para Realizar Commit Y Push Hacia Un Repositorio Remoto
+## Resumen de comandos para realizar commit y push hacia un repositorio remoto
 
     git init
     git add README.md
