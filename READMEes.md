@@ -5,7 +5,7 @@ Comandos Git
 - [English Version](README.md)
 <br>
 
-## Resumen de comandos para realizar commit y push hacia un repositorio remoto
+## Resumen De Comandos Para Realizar Commit Y Push Hacia Un Repositorio Remoto
 
     git init
     git add README.md
@@ -15,7 +15,7 @@ Comandos Git
     git push -u origin master
 <br>
 
-### Obtener y crear proyectos
+### Obtener Y Crear Proyectos
 
 | Comando | Descripción |
 | ------- | ----------- |
@@ -23,7 +23,7 @@ Comandos Git
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Crea una copia local de un repositorio remoto |
 <br>
 
-### Información y actualización
+### Información Y Actualización
 
 | Comando | Descripción |
 | ------- | ----------- |
@@ -34,7 +34,7 @@ Comandos Git
 | `git rm -r [file-name.txt]` | Eliminar un archivo (ó folder) |
 <br>
 
-### Acciones sobre branches y merge
+### Acciones Sobre Branch Y Merge
 
 | Comando | Descripción |
 | ------- | ----------- |
@@ -55,26 +55,26 @@ Comandos Git
 | `git stash clear` | Elimina todas las entradas escondidas |
 <br>
 
-### Sharing & Updating Projects
+### Actualizar Proyectos
 
 | Comando | Descripción |
 | ------- | ----------- |
-| `git push origin [branch name]` | Push a branch to your remote repository |
-| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
-| `git push` | Push changes to remote repository (remembered branch) |
-| `git push origin --delete [branch name]` | Delete a remote branch |
-| `git pull` | Update local repository to the newest commit |
-| `git pull origin [branch name]` | Pull changes from remote repository |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git push origin [branch name]` | Realizar push a un branch del repositorio remoto |
+| `git push -u origin [branch name]` | Realizar push a un branch del repositorio remoto (y recordar el branch) |
+| `git push` | Realizar push a un branch del repositorio remoto (branch recordado) |
+| `git push origin --delete [branch name]` | Borrar un branch remoto |
+| `git pull` | Actualizar el repositorio local hacia el último commit |
+| `git pull origin [branch name]` | Obtener los cambios del repositorio remoto |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Añadir un repositorio remoto |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Establecer el origen de un branch a SSH |
 <br>
 
-### Inspection & Comparison
+### Inspección y Comparación
 
-| Command | Description |
+| Comando | Descripción |
 | ------- | ----------- |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
-| `git log --oneline` | View changes (briefly) |
-| `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log` | Visualizar los cambios |
+| `git log --summary` | Visualizar los cambios (detallados) |
+| `git log --oneline` | Visualizar los cambios (resumidos) |
+| `git diff [source branch] [target branch]` | Previsualizar los cambios antes de realizar merge |
 <br>
