@@ -9,7 +9,7 @@ Git Commands
 
     git init
     git add README.md
-    git commit -m "commit message"
+    git commit -m "[commit message]"
     git branch -M master
     git remote add origin [remote-repository]
     git push -u origin master
