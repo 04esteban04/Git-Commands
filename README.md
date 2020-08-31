@@ -2,7 +2,7 @@ Git Commands
 ============
 
 ## Translated Versions
-- [Versión en español](READMEes.md)
+- [Spanish Version](READMEes.md)
 <br>
 
 ## Commands summary for commiting and pushing to a remote repository
